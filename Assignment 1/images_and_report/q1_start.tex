@@ -1,6 +1,13 @@
 \documentclass{homework}
 \usepackage[section]{placeins}
 \usepackage{listings}
+\usepackage{tabto}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
 \title{CH3052 Material Science Assignment-1}
 \author{S. Vishal \\ CH18B020}
 
@@ -265,4 +272,46 @@ Parameters as shown in Vesta:
 \end{figure}
 \FloatBarrier
 Obviously, since Vesta takes the parameters from the CIF file, the parameters taken in both places match perfectly.
+\\
+\textbf{Space Group: Fm-3m} \tab \textbf{Space Group Number: 225}
+\\
+\underline{Explanation}:
+\begin{enumerate}
+    \item \textbf{F}: It gives the crystal system and centering. The structure is \textbf{Face Centred Cubic}
+    \item The first \textbf{m} denotes that there is mirror symmetry with mirror placed along a-axis.
+    \item \textbf{-3} denotes that there is an inversion symmetry and a $C_3$ rotational symmetry with respect to b-axis.
+    \item The final \textbf{m} denotes that there is a mirror symmetry with mirror along c-axis
+\end{enumerate}
+
+\subsection*{Part b) Symmetry Operations}
+Space Group Number was found to be \textbf{225} from this  \href{http://img.chem.ucl.ac.uk/sgp/large/sgp.htm}{link}.
+\\
+Space Group Diagram was obtained in the following \href{http://img.chem.ucl.ac.uk/sgp/large/225az1.htm}{link}.
+\begin{figure}[!h]
+\centering
+\includegraphics[width=1\textwidth]{space_group_diagram.png}
+\caption{Space group diagram of $Cs_{2}AgInCl_{6}$}
+\end{figure}
+\FloatBarrier
+We find that the crystal has the following symmetry operations:
+\begin{enumerate}
+    \item $3_1$ screw axis inclined to plane at an angle of $54.736^{\circ}$.
+    \item $3_2$ screw axis inclined to plane at an angle of $54.736^{\circ}$.
+    \item $2_1$ screw axis perpendicular to the plane of the screen with inversion on the axis. The inversion centre lies at a height of 1/4 lattice units.
+    \item $2_1$ screw axis inclined to the plane at an angle of $45^{\circ}$
+    \item $2_1$ screw axis parallel to the plane
+    \item Glide plane along the diagonals.
+    \item $4_2$ screw axis perpendicular to the plane with centre of inversion on the axis.
+    \item $4_2$ screw axis along '-a' and '-b' directions(parallel to plane), with height of the axis of rotation above the XY plane at $\frac{1}{4}$.
+    \item $C_4$ symmetry with respect to axis perpendicular to the plane with a centre of inversion on the axis.
+    \item $C_4$ symmetry with respect to axis along '-a' and '-b' directions.(parallel to plane)
+    \item $C_2$ symmetry with respect to axes along and opposite to 'a' and 'b' directions. (parallel to the plane)
+    \item Diagonal planes:
+    \begin{enumerate}
+        \item Inclined at $45^{\circ}$ to the plane.
+        \item The dashed-dotted line (which bisects the -YZ axes) indicates a glide direction simultaneously along X and -YZ (look at the spheres in edge centres)
+        \item The thick solid line shows a mirror plane bisecting the YZ axes, i.e. with its normal parallel to -YZ. (look at the spheres in corners)
+    \end{enumerate} 
+    
+\end{enumerate}
 \end{document}
